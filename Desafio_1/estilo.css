@@ -1,0 +1,41 @@
+body {
+    padding: 0;
+    margin: 0 auto;
+    width: 1200px;  
+    
+}
+
+.topo {
+    
+    margin: 21.5px auto;
+    margin-left: 150px;
+    margin-right: 150px;  
+    display: grid;
+    grid-template-columns: auto auto;
+        
+            
+}
+
+
+.texto {
+    
+    margin: 21.5px auto;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.rodape {
+    
+    margin: 21.5px auto;
+    margin-left: 150px;
+    margin-right: 150px;
+    text-align: center;
+}
+
+.capa > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+

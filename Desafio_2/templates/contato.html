@@ -1,0 +1,45 @@
+
+
+{% extends "base.html" %} 
+
+{% block conteudo %}
+
+
+    <body>
+        <style> body{
+            background-image: url(/static/img/fundo2.png);
+        }
+            
+        </style>
+    
+        
+            
+    
+        
+        <div class="texto">
+        <!-- TEXTO CONTATO-->
+            <h3>Entre em contato conosco:</h3>
+            <p>
+            Por favor, Preencha o Formulário abaixo:
+            </p>
+            <hr>
+
+        <!-- FORMULARIO -->
+            <form>
+            Seu E-mail:<br>
+            <input type="text" name="Seu E-mail"><br>
+            Assunto:<br>
+            <input type="text" name="Assunto"><br>
+            Descrição:<br>
+            <textarea name="Descrição" rows="8" cols="21"></textarea><br>
+
+            <input type="submit">
+            </form>
+        </div>
+        
+ 
+    </body>
+    
+{% endblock %}
+ 
+
